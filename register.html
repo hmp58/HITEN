@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<form>
+  <div class="container">
+    <h1>Registration</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="confirm password"><b>Confirm Password</b></label>
+    <input type="text" placeholder="Confirm Password" name="confirm password" id="confirm password" required>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+</form>
+</body>
+
+<head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: linen;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Add padding to containers */
+    .container {
+      padding: 16px;
+      background-color: linen;
+    }
+
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: #ccffcc;
+    }
+
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+    }
+
+    /* Set a style for the submit button */
+    .registerbtn {
+      background-color: #4da6ff;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 15%;
+      opacity: 0.9;
+    }
+
+  </style>
+</head>
+</html>

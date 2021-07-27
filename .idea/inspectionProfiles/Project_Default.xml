@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="icon-bar" />
+            <item index="1" class="java.lang.String" itemvalue="href" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="center" />
+            <item index="7" class="java.lang.String" itemvalue="title" />
+            <item index="8" class="java.lang.String" itemvalue="dev" />
+            <item index="9" class="java.lang.String" itemvalue="button" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="IncorrectHttpHeaderInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="customHeaders">
+        <set>
+          <option value="session_start();" />
+          <option value="&lt;!DOCTYPE html&gt;" />
+          <option value="&#9;&lt;style&gt;" />
+          <option value="?&gt;" />
+          <option value="&lt;html&gt;" />
+          <option value="&#9;body {" />
+          <option value="&#9;  &#9;background-color" />
+          <option value="    &lt;head&gt;" />
+          <option value="&#9;}" />
+          <option value="&lt;head&gt;" />
+          <option value="        &lt;head&gt;" />
+          <option value="&#9;&lt;link rel=&quot;shortcut icon&quot; href=&quot;img/lifestyleStore.png&quot; /&gt;" />
+          <option value="        &lt;title&gt;Robo Shop&lt;/title&gt;" />
+          <option value="        &lt;meta charset=&quot;UTF-8&quot;&gt;" />
+        </set>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
